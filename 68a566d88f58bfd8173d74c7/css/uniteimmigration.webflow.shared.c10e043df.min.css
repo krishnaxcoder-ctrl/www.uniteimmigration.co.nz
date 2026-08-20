@@ -7982,3 +7982,61 @@ body {
         line-height: 20px
     }
 }
+
+/* ==========================================================================
+   Hand-written fixes: mobile horizontal overflow.
+   Appended after the Webflow export - re-apply if the site is re-exported.
+   ========================================================================== */
+
+/* The ticker strip was sized with 100vw. 100vw includes the classic
+   scrollbar, so the strip rendered ~15px wider than the viewport and gave
+   the page a sideways scroll in any browser that does not use overlay
+   scrollbars. section-4 has no horizontal padding, so 100% is full-bleed
+   too, without the scrollbar error. */
+.ticker-container {
+    min-width: 100%;
+    max-width: 100%
+}
+
+@media screen and (max-width:767px) {
+    /* The badges on the advisor photo were anchored outside the photo
+       (right:-45px, and -90px for ._1). On desktop the photo sits inside a
+       centred 1440 container, so they have room to hang off it. On mobile
+       the photo is 96% of the viewport, so they hung past the screen edge
+       and dragged the whole page sideways. Anchor them inside the photo,
+       keeping ._1 as the right-most badge as before. */
+    .tag {
+        right: 16px
+    }
+
+    .tag._1 {
+        right: 0
+    }
+
+    .tag._2 {
+        right: 16px
+    }
+
+    /* The sticky contact bar overflowed just above 480px, where the phone
+       and email labels appear but the gap is still the desktop 40px. */
+    .contact {
+        grid-column-gap: 20px;
+        grid-row-gap: 20px
+    }
+}
+
+@media screen and (max-width:479px) {
+    /* At this breakpoint the original offsets put ._1 nearer the photo edge
+       than the other two (-21px vs -45px); keep that relationship. */
+    .tag {
+        right: 0
+    }
+
+    .tag._1 {
+        right: 14px
+    }
+
+    .tag._2 {
+        right: 0
+    }
+}

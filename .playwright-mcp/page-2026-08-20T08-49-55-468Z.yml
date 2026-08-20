@@ -1,0 +1,386 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "home" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - link "Book a consultation dark blue coloured arrow pointing right" [ref=e5] [cursor=pointer]:
+        - /url: /contact-us
+        - generic [ref=e6]: Book a consultation
+        - img "dark blue coloured arrow pointing right" [ref=e7]
+      - button "menu" [ref=e8] [cursor=pointer]
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - link "Facebook - Unite Immigration New Zealand" [ref=e14] [cursor=pointer]:
+        - /url: https://www.facebook.com/uniteimmigrationnz
+      - link "Instagram - Unite Immigration New Zealand" [ref=e15] [cursor=pointer]:
+        - /url: https://www.instagram.com/unite.immigration?igsh=MTdwcGFmczJ0M212NA%3D%3D&utm_source=qr
+      - link "Tiktok - Unite Immigration New Zealand" [ref=e16] [cursor=pointer]:
+        - /url: https://www.tiktok.com/@unite.immigration?_r=1&_t=ZS-938qrJ5YznW
+    - generic [ref=e17]:
+      - link "Contact Unite Immigration" [ref=e18] [cursor=pointer]:
+        - /url: tel:02040655069
+      - link "Mail Unite Immigration" [ref=e20] [cursor=pointer]:
+        - /url: mailto:info@uniteimmigration.co.nz
+  - generic [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e25]: "#Your Trusted Partner in NZ Immigration"
+      - heading "Need help with New Zealand Immigration?" [level=1] [ref=e26]: Need help withNew Zealand Immigration?
+      - paragraph [ref=e27]: Are you an aspiring immigrant excited to call New Zealand your new home? Or an innovative New Zealand business seeking to hire talented foreign workers? Our team of immigration consultants is here to make your dreams come true. We’re committed to supporting you every step of the way!
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - link [ref=e30] [cursor=pointer]:
+          - /url: /visitor-visa
+          - heading "Visitor Visa" [level=2] [ref=e31]
+        - generic [ref=e33]:
+          - link [ref=e34] [cursor=pointer]:
+            - /url: /visitor-visa/for-general-visits
+            - heading "General Visitor" [level=3] [ref=e35]
+            - img "white coloured arrow pointing right" [ref=e36]
+          - link [ref=e37] [cursor=pointer]:
+            - /url: /visitor-visa/for-business
+            - heading "Business Visitor" [level=3] [ref=e38]
+            - img "white coloured arrow pointing right" [ref=e39]
+          - link [ref=e40] [cursor=pointer]:
+            - /url: /visitor-visa/parent-boost-visitor-visa
+            - heading "Parent Boost" [level=3] [ref=e41]
+            - img "white coloured arrow pointing right" [ref=e42]
+          - link [ref=e43] [cursor=pointer]:
+            - /url: /visitor-visa/parent-grandparent-visitor-visa
+            - heading "Parent/grandparent" [level=3] [ref=e44]
+            - img "white coloured arrow pointing right" [ref=e45]
+          - link [ref=e46] [cursor=pointer]:
+            - /url: /visitor-visa/for-child-of-a-new-zealander
+            - heading "Dependent Child" [level=3] [ref=e47]
+            - img "white coloured arrow pointing right" [ref=e48]
+          - link [ref=e49] [cursor=pointer]:
+            - /url: /visitor-visa/for-culturally-arranged-marriage
+            - heading "Culturally Arranged Marriage" [level=3] [ref=e50]
+            - img "white coloured arrow pointing right" [ref=e51]
+          - link [ref=e52] [cursor=pointer]:
+            - /url: /visitor-visa/for-partner-of-a-new-zealander
+            - heading "Partner of New Zealander" [level=3] [ref=e53]
+            - img "white coloured arrow pointing right" [ref=e54]
+      - generic [ref=e55]:
+        - link [ref=e56] [cursor=pointer]:
+          - /url: /student-visa
+          - heading "Student Visa" [level=2] [ref=e57]
+        - generic [ref=e59]:
+          - link [ref=e60] [cursor=pointer]:
+            - /url: /student-visa/fee-paying-student-visa
+            - heading "Fee paying Student" [level=3] [ref=e61]
+            - img "white coloured arrow pointing right" [ref=e62]
+          - link [ref=e63] [cursor=pointer]:
+            - /url: /student-visa/pathway-student-visa
+            - heading "Pathway Student" [level=3] [ref=e64]
+            - img "white coloured arrow pointing right" [ref=e65]
+          - link [ref=e66] [cursor=pointer]:
+            - /url: /student-visa/for-dependent-child
+            - heading "Dependent Child Student" [level=3] [ref=e67]
+            - img "white coloured arrow pointing right" [ref=e68]
+      - generic [ref=e69]:
+        - link [ref=e70] [cursor=pointer]:
+          - /url: /work-visa
+          - heading "Work Visa" [level=2] [ref=e71]
+        - generic [ref=e73]:
+          - link [ref=e74] [cursor=pointer]:
+            - /url: /work-visa/accredited-employee-visa
+            - heading "Accredited Employer" [level=3] [ref=e75]
+            - img "white coloured arrow pointing right" [ref=e76]
+          - link [ref=e77] [cursor=pointer]:
+            - /url: /work-visa/post-study-work-visa
+            - heading "Post Study" [level=3] [ref=e78]
+            - img "white coloured arrow pointing right" [ref=e79]
+          - link [ref=e80] [cursor=pointer]:
+            - /url: /work-visa/for-specific-purpose
+            - heading "Specific Purpose" [level=3] [ref=e81]
+            - img "white coloured arrow pointing right" [ref=e82]
+          - link [ref=e83] [cursor=pointer]:
+            - /url: /work-visa/for-working-holidays
+            - heading "Working Holiday" [level=3] [ref=e84]
+            - img "white coloured arrow pointing right" [ref=e85]
+          - link [ref=e86] [cursor=pointer]:
+            - /url: /work-visa/partner-of-a-new-zealander-work-visa
+            - heading "Partner of New Zealander" [level=3] [ref=e87]
+            - img "white coloured arrow pointing right" [ref=e88]
+          - link [ref=e89] [cursor=pointer]:
+            - /url: /work-visa/partner-of-a-student
+            - heading "Partner of Student Visa holders" [level=3] [ref=e90]
+            - img "white coloured arrow pointing right" [ref=e91]
+          - link [ref=e92] [cursor=pointer]:
+            - /url: /work-visa/for-partner-of-worker
+            - heading "Partner of Work Visa holders" [level=3] [ref=e93]
+            - img "white coloured arrow pointing right" [ref=e94]
+      - generic [ref=e95]:
+        - link [ref=e96] [cursor=pointer]:
+          - /url: /resident-visa
+          - heading "Resident Visa (RV)" [level=2] [ref=e97]
+        - generic [ref=e99]:
+          - link [ref=e100] [cursor=pointer]:
+            - /url: /resident-visa/for-skilled-migrants
+            - heading "Skilled Migrant Category" [level=3] [ref=e101]
+            - img "white coloured arrow pointing right" [ref=e102]
+          - link [ref=e103] [cursor=pointer]:
+            - /url: /resident-visa/for-greenlist-occupations
+            - heading "Work to Residence" [level=3] [ref=e104]
+            - img "white coloured arrow pointing right" [ref=e105]
+          - link [ref=e106] [cursor=pointer]:
+            - /url: /resident-visa/straight-to-residence-visa
+            - heading "Straight to Residence" [level=3] [ref=e107]
+            - img "white coloured arrow pointing right" [ref=e108]
+          - link [ref=e109] [cursor=pointer]:
+            - /url: /resident-visa/for-careforce-workers
+            - heading "Care Workforce" [level=3] [ref=e110]
+            - img "white coloured arrow pointing right" [ref=e111]
+          - link [ref=e112] [cursor=pointer]:
+            - /url: /resident-visa/transport-work-to-resident-visa
+            - heading "Transport Sector" [level=3] [ref=e113]
+            - img "white coloured arrow pointing right" [ref=e114]
+          - link [ref=e115] [cursor=pointer]:
+            - /url: /resident-visa/partner-of-a-new-zealander-resident-visa
+            - heading "Partner of New Zealander" [level=3] [ref=e116]
+            - img "white coloured arrow pointing right" [ref=e117]
+          - link [ref=e118] [cursor=pointer]:
+            - /url: /resident-visa/for-dependent-children
+            - heading "Dependent child RV" [level=3] [ref=e119]
+            - img "white coloured arrow pointing right" [ref=e120]
+          - link [ref=e121] [cursor=pointer]:
+            - /url: /resident-visa/for-parents
+            - heading "Parent RV" [level=3] [ref=e122]
+            - img "white coloured arrow pointing right" [ref=e123]
+          - link [ref=e124] [cursor=pointer]:
+            - /url: /resident-visa/for-retired-parents
+            - heading "Parent Retirement" [level=3] [ref=e125]
+            - img "white coloured arrow pointing right" [ref=e126]
+  - generic [ref=e129]:
+    - generic [ref=e130]:
+      - heading "You’re future starts here" [level=2] [ref=e131]
+      - paragraph [ref=e132]:
+        - text: Immigration can be overwhelming but we help bring clarity and confidence through the process. We’re not just filling out forms for you. We help you protecting your future, your family, your dreams.
+        - strong [ref=e133]: You shouldn't have to do it all alone.
+        - text: At Unite Immigration, we listen, we guide, and we walk the journey with you.
+      - link "Talk to an Expert dark blue coloured arrow pointing right" [ref=e135] [cursor=pointer]:
+        - /url: /contact-us
+        - generic [ref=e136]: Talk to an Expert
+        - img "dark blue coloured arrow pointing right" [ref=e137]
+    - generic [ref=e138]:
+      - generic [ref=e139]: Top consultants
+      - generic [ref=e140]: Guided process
+      - generic [ref=e141]: Journey Focused
+  - generic [ref=e143]:
+    - generic [ref=e144]: Immigration Success Stories
+    - heading "Here's what our clients have to say" [level=2] [ref=e145]
+    - region "carousel" [ref=e147]:
+      - generic [ref=e148]:
+        - group "1 of 3" [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e153]:
+              - heading "Manjot Singh" [level=3] [ref=e154]
+              - generic [ref=e155]: Employer Accreditation
+              - generic [ref=e156]: Job Check
+            - paragraph [ref=e158]: The guidance I received as an employer was clear and practical. Every step was explained well, and we felt confident that our accreditation and job check were handled professionally. Communication was prompt and reliable throughout.
+        - group [ref=e159]:
+          - generic [ref=e160]:
+            - generic [ref=e163]:
+              - heading [level=4] [ref=e164]: Kamal Sharma
+              - generic [ref=e165]: Multiple Visas
+            - paragraph [ref=e167]: Jasmine has handled all my visa applications, from my parents’ visitor visas to my cousins’ visitor visa applications. Every time, the process was smooth and well explained, and we have always had positive outcomes. I truly trust her guidance and support.
+        - group [ref=e168]:
+          - generic [ref=e169]:
+            - generic [ref=e172]:
+              - heading [level=4] [ref=e173]: Vishant Singh
+              - generic [ref=e174]: AEWV
+            - paragraph [ref=e176]: I had a previous visa decline and was very scared to apply again. Jasmine made the process clear and manageable, explained everything honestly, and supported me at every step. Thanks to her guidance, my AEWV was approved, and I’m extremely grateful.
+      - button "previous slide" [ref=e178] [cursor=pointer]:
+        - img "white coloured arrow pointing right" [ref=e179]
+      - button "next slide" [ref=e180] [cursor=pointer]:
+        - img "white coloured arrow pointing right" [ref=e181]
+      - generic [ref=e182]:
+        - button "Show slide 1 of 3" [pressed] [ref=e183] [cursor=pointer]
+        - button "Show slide 2 of 3" [ref=e184] [cursor=pointer]
+        - button "Show slide 3 of 3" [ref=e185] [cursor=pointer]
+  - generic [ref=e187]:
+    - generic [ref=e188]:
+      - generic [ref=e189]:
+        - img "Stars"
+        - generic [ref=e190]: Expert Consultants
+      - generic [ref=e191]:
+        - img "Stars"
+        - generic [ref=e192]: Personalised Care
+      - generic [ref=e193]:
+        - img "Stars"
+        - generic [ref=e194]: Specialised Knowledge
+      - generic [ref=e195]:
+        - img "Stars"
+        - generic [ref=e196]: Licensed Advisors
+      - generic [ref=e197]:
+        - img "Stars"
+        - generic [ref=e198]: Expert Consultants
+      - generic [ref=e199]:
+        - img "Stars"
+        - generic [ref=e200]: Personalised Care
+      - generic [ref=e201]:
+        - img "Stars"
+        - generic [ref=e202]: Specialised Knowledge
+      - generic [ref=e203]:
+        - img "Stars"
+        - generic [ref=e204]: Licensed Advisors
+      - generic [ref=e205]:
+        - img "Stars"
+        - generic [ref=e206]: Expert Consultants
+      - generic [ref=e207]:
+        - img "Stars"
+        - generic [ref=e208]: Personalised Care
+      - generic [ref=e209]:
+        - img "Stars"
+        - generic [ref=e210]: Specialised Knowledge
+      - generic [ref=e211]:
+        - img "Stars"
+        - generic [ref=e212]: Licensed Advisors
+    - generic [ref=e213]:
+      - generic [ref=e214]:
+        - img "Stars"
+        - generic [ref=e215]: Expert Consultants
+      - generic [ref=e216]:
+        - img "Stars"
+        - generic [ref=e217]: Personalised Care
+      - generic [ref=e218]:
+        - img "Stars"
+        - generic [ref=e219]: Specialised Knowledge
+      - generic [ref=e220]:
+        - img "Stars"
+        - generic [ref=e221]: Licensed Advisors
+      - generic [ref=e222]:
+        - img "Stars"
+        - generic [ref=e223]: Expert Consultants
+      - generic [ref=e224]:
+        - img "Stars"
+        - generic [ref=e225]: Personalised Care
+      - generic [ref=e226]:
+        - img "Stars"
+        - generic [ref=e227]: Specialised Knowledge
+      - generic [ref=e228]:
+        - img "Stars"
+        - generic [ref=e229]: Licensed Advisors
+      - generic [ref=e230]:
+        - img "Stars"
+        - generic [ref=e231]: Expert Consultants
+      - generic [ref=e232]:
+        - img "Stars"
+        - generic [ref=e233]: Personalised Care
+      - generic [ref=e234]:
+        - img "Stars"
+        - generic [ref=e235]: Specialised Knowledge
+      - generic [ref=e236]:
+        - img "Stars"
+        - generic [ref=e237]: Licensed Advisors
+  - generic [ref=e240]:
+    - generic [ref=e241]: What we believe
+    - heading "Our values sets us apart" [level=2] [ref=e242]
+    - generic [ref=e244]:
+      - generic [ref=e245]:
+        - heading "People always come first" [level=3] [ref=e248]
+        - paragraph [ref=e249]: Behind every visa is a real story. We’re committed to support every step of the way
+      - generic [ref=e250]:
+        - heading "Clarity over complexity" [level=3] [ref=e253]
+        - paragraph [ref=e254]: Legal advice should empower, not confuse. We are here to make things easy for you.
+      - generic [ref=e255]:
+        - heading "A pattern of honesty" [level=3] [ref=e258]
+        - paragraph [ref=e259]: We'll always tell you the truth, not just what you want to hear. Aimed at building trust.
+      - generic [ref=e260]:
+        - heading "Empathetic approach" [level=3] [ref=e263]
+        - paragraph [ref=e264]: Your future matters. And we never forget that. We pursue every course for your success.
+  - generic [ref=e267]:
+    - heading "Need help with New Zealand Immigration?" [level=2] [ref=e268]
+    - paragraph [ref=e269]: It all begins with a conversation. You just need someone who understands — and knows how to help. Warm, human, expert help is just a click away.
+    - link "Book a consultation white coloured arrow pointing right" [ref=e272] [cursor=pointer]:
+      - /url: /contact-us
+      - generic [ref=e273]: Book a consultation
+      - img "white coloured arrow pointing right" [ref=e274]
+  - generic [ref=e275]:
+    - generic [ref=e276]:
+      - generic:
+        - generic:
+          - img "Unite Immigration New Zealand Brand Logo in White"
+      - generic [ref=e277]:
+        - generic [ref=e278]:
+          - generic [ref=e279]:
+            - generic [ref=e280]: Services
+            - link [ref=e281] [cursor=pointer]:
+              - /url: /visitor-visa
+              - heading "For Visitors" [level=5] [ref=e282]
+            - link [ref=e283] [cursor=pointer]:
+              - /url: /student-visa
+              - heading "For Students" [level=5] [ref=e284]
+            - link [ref=e285] [cursor=pointer]:
+              - /url: /work-visa
+              - heading "For Work" [level=5] [ref=e286]
+            - link [ref=e287] [cursor=pointer]:
+              - /url: /resident-visa
+              - heading "For Residency" [level=5] [ref=e288]
+          - generic [ref=e290]:
+            - generic [ref=e291]: COMPANY
+            - link [ref=e292] [cursor=pointer]:
+              - /url: /about-us
+              - heading "About us" [level=5] [ref=e293]
+            - link [ref=e294] [cursor=pointer]:
+              - /url: /blog-news
+              - heading "Blog News" [level=5] [ref=e295]
+            - link [ref=e296] [cursor=pointer]:
+              - /url: /contact-us
+              - heading "Contact us" [level=5] [ref=e297]
+          - generic [ref=e299]:
+            - generic [ref=e300]: Legal
+            - link [ref=e301] [cursor=pointer]:
+              - /url: /privacy-policy
+              - heading "Privacy Policy" [level=5] [ref=e302]
+            - link [ref=e303] [cursor=pointer]:
+              - /url: /terms-conditions
+              - heading "Terms & Conditions" [level=5] [ref=e304]
+          - generic [ref=e305]:
+            - generic [ref=e306]: Contact US
+            - link [ref=e307] [cursor=pointer]:
+              - /url: "#"
+              - generic "Location Icon" [ref=e308]:
+                - img "Location Icon in black" [ref=e309]
+              - heading "Auckland, New Zealand" [level=5] [ref=e310]
+            - link [ref=e311] [cursor=pointer]:
+              - /url: tel:+642040655069
+              - generic "Call Icon" [ref=e312]:
+                - img "call phone icon" [ref=e313]
+              - heading "+64 20406 55069" [level=5] [ref=e314]
+            - link [ref=e315] [cursor=pointer]:
+              - /url: mailto:info@uniteimmigration.co.nz?subject=Website%20Inquiry
+              - generic "Mail Icon" [ref=e316]:
+                - img "Black envelope icon representing email or message." [ref=e317]
+              - heading "info@uniteimmigration.co.nz" [level=5] [ref=e318]
+        - generic [ref=e319]:
+          - generic [ref=e320]:
+            - img "Licensed by immigration advisers authority Badge" [ref=e321]
+            - paragraph [ref=e322]:
+              - generic [ref=e323]:
+                - text: Licence Number
+                - generic:
+                  - strong
+              - generic:
+                - strong:
+                  - emphasis: ‍
+                - text: ‍
+              - link [ref=e324] [cursor=pointer]:
+                - /url: https://app.mbieregisters.govt.nz/iaa/ext/adviser/view/202100808
+                - strong [ref=e325]:
+                  - emphasis [ref=e326]: 202100808 →
+              - strong:
+                - emphasis: ‍
+          - generic [ref=e327]:
+            - generic [ref=e328]: Our Socials
+            - generic [ref=e329]:
+              - link "Instagram - Unite Immigration New Zealand" [ref=e330] [cursor=pointer]:
+                - /url: https://www.instagram.com/unite.immigration?igsh=MTdwcGFmczJ0M212NA%3D%3D&utm_source=qr
+                - img "Instagram White Icon"
+              - link "Facebook - Unite Immigration New Zealand" [ref=e331] [cursor=pointer]:
+                - /url: https://www.facebook.com/uniteimmigrationnz
+                - img "Facebook icon block" [ref=e332]
+              - link "Tiktok - Unite Immigration New Zealand" [ref=e333] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@unite.immigration?_r=1&_t=ZS-938qrJ5YznW
+                - img "Tiktok Icon" [ref=e334]
+    - generic [ref=e335]: © 2026 All rights reserved | Unite Immigration
